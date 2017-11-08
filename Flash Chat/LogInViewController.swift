@@ -29,7 +29,6 @@ class LogInViewController: UIViewController {
 
         SVProgressHUD.show()
         
-        //TODO: Log in the user
         FIRAuth.auth()?.signIn(withEmail: emailTextfield.text!, password: passwordTextfield.text!, completion: { (user, error) in
             if error != nil {
                 print("There was an error during login")

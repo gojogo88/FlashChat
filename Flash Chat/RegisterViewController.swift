@@ -13,7 +13,7 @@ import SVProgressHUD
 class RegisterViewController: UIViewController {
 
     
-    //Pre-linked IBOutlets
+    //IBOutlets
 
     @IBOutlet var emailTextfield: UITextField!
     @IBOutlet var passwordTextfield: UITextField!
@@ -33,7 +33,7 @@ class RegisterViewController: UIViewController {
         
         SVProgressHUD.show()
         
-        //TODO: Set up a new user on our Firbase database
+        //Set up a new user on our Firbase database
         
         if emailTextfield.text == "" || passwordTextfield.text == ""  {
             let alert = UIAlertController(title: "Error Message", message:"Please fill in all fields", preferredStyle: .alert)
