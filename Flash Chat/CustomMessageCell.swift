@@ -20,8 +20,6 @@ class CustomMessageCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code goes here
         
-        
-        
     }
 
 
